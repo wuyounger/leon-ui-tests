@@ -11,7 +11,7 @@ load File.join(File.dirname(__FILE__), "buildwise.rake")
 
 ## Settings: Customize here...
 # 
-BUILDWISE_URL = ENV["BUILDWISE_MASTER"] || "http://buildwise.dev"
+BUILDWISE_URL = ENV["BUILDWISE_MASTER"] || "http://10.0.3.2"
 # BUILDWISE_QUICK_PROJECT_ID = "agiletravel-quick-build-rspec"
 # BUILDWISE_FULL_PROJECT_ID  = "agiletravel-full-build-rspec" # import to set for full build
  
